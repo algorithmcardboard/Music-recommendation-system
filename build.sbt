@@ -1,7 +1,8 @@
 lazy val root = (project in file(".")).
   settings(
     name := "Music Recommendation System",
-    version := "1.0"
+    version := "1.0",
+    publishMavenStyle := true
   )
   
-  libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.3.0"
+  libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.3.0" % "provided"

@@ -6,5 +6,5 @@ lazy val root = (project in file(".")).
   )
   
   libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.3.0" % "provided"
-  libraryDependencies += "org.apache.spark" % "spark-mllib_2.10" % "1.3.0"
+  libraryDependencies += "org.apache.spark" % "spark-mllib_2.10" % "1.3.0" % "provided"
   

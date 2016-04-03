@@ -1,6 +1,6 @@
 lazy val root = (project in file(".")).
   settings(
-    name := "Music Recommendation System",
+    name := "Music-Recommendation-System",
     version := "1.0",
     publishMavenStyle := true
   )
